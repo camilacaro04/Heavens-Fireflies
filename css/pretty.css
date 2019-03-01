@@ -34,7 +34,6 @@ div.signs {
   padding-right: 50px;
 }
 img:hover {
-  width: 20vw;
-  height: 20vh;
-  transition: 0.6s ease;
+    transform: scale(1.5);
+    transition: 0.6s;
 }
