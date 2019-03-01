@@ -1,27 +1,48 @@
-body {
-    color: rgb(0, 0, 0);
-    font-family: sans-serif;
-    margin: 0px;
-
-  }
-
-h1 {
-    text-align: center;
-    color: rgb (255,255,255);
-    padding-bottom: 30px;
+body{
+    background-color: rgb(24,40,118);
 }
 
-div.toppytop {
-    background-color: rgb (255,160,0);
+h1#title {
     text-align: center;
+    color: rgb(255,87,51);
+}
 
+
+
+div.header {
+    display:flex;
+    justify-content: center;
+    background-color:rgb(24,40,118);
+
+}
+div.planets {
+  display:flex;
+  justify-content: center;
+  background-image:url(../images/starry.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1#subTitle {
+  text-align: center;
+  color: rgb(255,87,51);
+}
+div.signTitle{
+  display:flex;
+  justify-content: center;
+  background-color:rgb(24,40,118);
 }
 
 div.signs {
-  display: block;
-  justify-content: space-around;
+  display: flex;
+  justify-content: center;
 
-  background-image: url(../galaxy.jpg);
+  background-image: url(../images/galaxy.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -31,7 +52,11 @@ div.signs {
   padding-left: 50px;
   padding-right: 50px;
 }
+div.bottom {
+  background-color:rgb(255,87,51);
+}
 img:hover {
     transform: scale(1.5);
     transition: 0.6s;
+
 }
