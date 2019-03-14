@@ -33,17 +33,38 @@
   <div class="header">
     <h1 id="title">The Planets</h1>
   </div>
+
   <div class="planets">
     <div class="row">
 
-        <img src="images/sun.png" alt="Sun" width="180px" onclick="#sunModal">
+        <img id="Sun" src="images/sun.png" alt="Sun" width="180px">
 
         <img src="images/mercury.png" alt="Mercury" width="180px" hspace="40px">
         <img src="images/venus.png" alt="Venus" width="180px" hspace="40px">
         <img src="images/moon.png" alt="Moon" width="180px" hspace="40px">
         <img src="images/mars.png" alt="Mars" width="180px" hspace="40px">
-        </div>
     </div>
+  </div>
+
+  <div class="modal fade" id="sunModal" tabindex="-1" role="dialog" aria-labelledby="sunModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="sunModalLabel">The Sun</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          Explanation of the sun to be put here
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="signTitle">
     <h1 id="subTitle">Your Sun Sign</h1>
   </div>
@@ -75,6 +96,7 @@
       <span class="badge badge-pill badge-secondary">By Star-Crossed</span>
     </div>
   </footer>
-
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/scripts.js"></script>
 </body>
 </html>
