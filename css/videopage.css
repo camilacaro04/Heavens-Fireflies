@@ -27,7 +27,7 @@ div.video {
   display: block;
   justify-content: space-around;
 
-  background-image: url(../galaxy.jpg);
+  background-image: url(../images/galaxy.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
