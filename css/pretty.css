@@ -55,8 +55,8 @@ div.signs {
 div.bottom {
   background-color:rgb(255,87,51);
 }
-img:hover {
-    transform: scale(1.5);
-    transition: 0.6s;
 
+input:hover{
+  transform: scale(1.5);
+  transition: 0.6s;
 }
