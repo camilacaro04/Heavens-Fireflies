@@ -36,28 +36,28 @@
 
   <div class="planets">
     <div class="row">
-        <img id="sun" src="images/sun.png" alt="Sun" height="200x" width="200px">
-        <img src="images/mercury.png" alt="Mercury" height="200x" width="200px">
-        <img src="images/venus.png" alt="Venus" height="200x" width="200px">
-        <img src="images/moon.png" alt="Moon" height="200x" width="200px">
-        <img src="images/mars.png" alt="Mars" height="200x" width="200px">
+      <input type="image" img src="images/sun.png" name="Sun" height="180x" width="180px" data-toggle="modal" data-target="#sunModal">
+      <input type="image" img src="images/mercury.png" name="Mercury" height="180x" width="180px" data-toggle="modal" data-target="#mercuryModal">
+      <input type="image" img src="images/venus.png" name="Venus" height="180x" width="180px" data-toggle="modal" data-target="#venusModal">
+      <input type="image" img src="images/moon.png" name="Moon" height="180x" width="180px" data-toggle="modal" data-target="#moonModal">
+      <input type="image" img src="images/mars.png" name="Mars" height="180x" width="180px" data-toggle="modal" data-target="#marsModal">
     </div>
   </div>
 
-  <div class="modal fade" id="sunModal" tabindex="-1" role="dialog" aria-labelledby="sunModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content" id="theSun">
+  <div class="modal fade" id="sunModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="sunModalLabel">The Sun</h5>
+          <h5 class="modal-title" id="exampleModalCenterTitle">The Sun</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
+            <!-- <span aria-hidden="true">&times;</span> -->
           </button>
         </div>
         <div class="modal-body">
-          Explanation of the sun to be put here
+          ...
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
@@ -71,24 +71,48 @@
       <tbody>
         <tr>
           <th scope="row"></th>
-          <td><img src="images/profile-aquarius.png" alt="Aquarius" height="180x" width="180px"></td>
-          <td><img src="images/profile-pisces.png" alt="Pisces" height="180x" width="180px"></td>
-          <td><img src="images/profile-aries.png" alt="Aries" height="180x" width="180px"></td>
-          <td><img src="images/profile-taurus.png" alt="Taurus" height="180x" width="180px"></td>
+          <td>
+            <input type="image" img src="images/profile-aquarius.png" alt="Aquarius" height="180x" width="180px" data-toggle="modal" data-target="#aquariusModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-pisces.png" alt="Pisces" height="180x" width="180px" data-toggle="modal" data-target="#piscesModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-aries.png" alt="Aries" height="180x" width="180px" data-toggle="modal" data-target="#ariesModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-taurus.png" alt="Taurus" height="180x" width="180px" data-toggle="modal" data-target="#taurusModal">
+          </td>
         </tr>
         <tr>
           <th scope="row"></th>
-          <td><img src="images/profile-gemini.png" alt="Gemini" height="180x" width="180px"></td>
-          <td><img src="images/profile-cancer.png" alt="Cancer" height="180x" width="180px"></td>
-          <td><img src="images/profile-leo.png" alt="Leo" height="180x" width="180px"></td>
-          <td><img src="images/profile-virgo.png" alt="Virgo" height="180x" width="180px"></td>
+          <td>
+            <input type="image" img src="images/profile-gemini.png" alt="Gemini" height="180x" width="180px" data-toggle="modal" data-target="#geminiModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-cancer.png" alt="Cancer" height="180x" width="180px" data-toggle="modal" data-target="#cancerModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-leo.png" alt="Leo" height="180x" width="180px" data-toggle="modal" data-target="#leoModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-virgo.png" alt="Virgo" height="180x" width="180px" data-toggle="modal" data-target="#virgoModal">
+          </td>
         </tr>
         <tr>
           <th scope="row"></th>
-          <td><img src="images/profile-libra.png" alt="Libra" height="180x" width="180px"></td>
-          <td><img src="images/profile-scorpio.png" alt="Scorpio" height="180x" width="180px"></td>
-          <td><img src="images/profile-sagittarius.png" alt="Sagittarius" height="180x" width="180px"></td>
-          <td><img src="images/profile-capricorn.png" alt="Capricorn" height="180x" width="180px"></td>
+          <td>
+            <input type="image" img src="images/profile-libra.png" alt="Libra" height="180x" width="180px" data-toggle="modal" data-target="#libraModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-scorpio.png" alt="Scorpio" height="180x" width="180px" data-toggle="modal" data-target="#scorpioModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-sagittarius.png" alt="Sagittarius" height="180x" width="180px" data-toggle="modal" data-target="#sagittariusModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-capricorn.png" alt="Capricorn" height="180x" width="180px" data-toggle="modal" data-target="#capricornModal">
+          </td>
         </tr>
       </tbody>
     </table>
@@ -97,11 +121,15 @@
   <footer>
     <div class="bottom">
       <a href="http://www.facebook.com" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
+      <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+      <a href="http://www.instagram.com" class="fa fa-instagram"></a>
       <span class="badge badge-pill badge-secondary">By Star-Crossed</span>
     </div>
   </footer>
 <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
