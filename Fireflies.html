@@ -36,19 +36,17 @@
 
   <div class="planets">
     <div class="row">
-
-        <img id="Sun" src="images/sun.png" alt="Sun" width="180px">
-
-        <img src="images/mercury.png" alt="Mercury" width="180px" hspace="40px">
-        <img src="images/venus.png" alt="Venus" width="180px" hspace="40px">
-        <img src="images/moon.png" alt="Moon" width="180px" hspace="40px">
-        <img src="images/mars.png" alt="Mars" width="180px" hspace="40px">
+        <img id="sun" src="images/sun.png" alt="Sun" height="200x" width="200px">
+        <img src="images/mercury.png" alt="Mercury" height="200x" width="200px">
+        <img src="images/venus.png" alt="Venus" height="200x" width="200px">
+        <img src="images/moon.png" alt="Moon" height="200x" width="200px">
+        <img src="images/mars.png" alt="Mars" height="200x" width="200px">
     </div>
   </div>
 
   <div class="modal fade" id="sunModal" tabindex="-1" role="dialog" aria-labelledby="sunModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
-      <div class="modal-content">
+      <div class="modal-content" id="theSun">
         <div class="modal-header">
           <h5 class="modal-title" id="sunModalLabel">The Sun</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -69,24 +67,31 @@
     <h1 id="subTitle">Your Sun Sign</h1>
   </div>
   <div class="signs">
-    <div class="row">
-      <img src="images/profile-aquarius.png" alt="Aquarius" width="170px" hspace="20px">
-      <img src="images/profile-pisces.png" alt="Pisces" width="170px" hspace="20px">
-      <img src="images/profile-aries.png" alt="Aries" width="170px" hspace="20px">
-      <img src="images/profile-taurus.png" alt="Taurus" width="170px" hspace="20px">
-    </div>
-    <div class="row">
-      <img src="images/profile-gemini.png" alt="Gemini" width="170px" hspace="20px">
-      <img src="images/profile-cancer.png" alt="Cancer" width="170px" hspace="20px">
-      <img src="images/profile-leo.png" alt="Leo" width="170px" hspace="20px">
-      <img src="images/profile-virgo.png" alt="Virgo" width="170px" hspace="20px">
-    </div>
-    <div class="row">
-      <img src="images/profile-libra.png" alt="Libra" width="170px" hspace="20px">
-      <img src="images/profile-scorpio.png" alt="Scorpio" width="170px" hspace="20px">
-      <img src="images/profile-sagittarius.png" alt="Sagittarius" width="170px" hspace="20px">
-      <img src="images/profile-capricorn.png" alt="Capricorn" width="170px" hspace="20px">
-    </div>
+    <table id="tableSigns" class="table table-borderless">
+      <tbody>
+        <tr>
+          <th scope="row"></th>
+          <td><img src="images/profile-aquarius.png" alt="Aquarius" height="180x" width="180px"></td>
+          <td><img src="images/profile-pisces.png" alt="Pisces" height="180x" width="180px"></td>
+          <td><img src="images/profile-aries.png" alt="Aries" height="180x" width="180px"></td>
+          <td><img src="images/profile-taurus.png" alt="Taurus" height="180x" width="180px"></td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td><img src="images/profile-gemini.png" alt="Gemini" height="180x" width="180px"></td>
+          <td><img src="images/profile-cancer.png" alt="Cancer" height="180x" width="180px"></td>
+          <td><img src="images/profile-leo.png" alt="Leo" height="180x" width="180px"></td>
+          <td><img src="images/profile-virgo.png" alt="Virgo" height="180x" width="180px"></td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td><img src="images/profile-libra.png" alt="Libra" height="180x" width="180px"></td>
+          <td><img src="images/profile-scorpio.png" alt="Scorpio" height="180x" width="180px"></td>
+          <td><img src="images/profile-sagittarius.png" alt="Sagittarius" height="180x" width="180px"></td>
+          <td><img src="images/profile-capricorn.png" alt="Capricorn" height="180x" width="180px"></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
 
   <footer>
