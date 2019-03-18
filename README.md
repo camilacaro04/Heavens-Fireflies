@@ -1,2 +1,2 @@
 # Heavens-Fireflies
-Truly
+Truly, Simoné, and Camila's Awesome Astrology Page!
