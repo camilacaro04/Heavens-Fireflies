@@ -28,6 +28,14 @@ div.toppytop {
 
 }
 
+p {
+    text-align: justify;
+}
+
+ul {
+    text-align: justify;
+}
+
 div.video {
   display: block;
   justify-content: space-around;
