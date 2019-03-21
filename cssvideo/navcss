@@ -1,6 +1,0 @@
-header {
-    padding-right: 5rem;
-    padding-left: 5rem;
-    min-height: 4rem;
-    Background-color: #563d7c;
-}
