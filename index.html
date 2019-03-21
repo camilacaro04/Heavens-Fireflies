@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Heaven's Fireflies</title>
+    <link rel="stylesheet" type="text/css" href="css/pretty.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255,87,51)">
+    <a class="navbar-brand" href="#"><h2><a href="#" class="badge badge-dark">Heaven's Fireflies</a></h2>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="./about.html">What is astrology?</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Your personal combination</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+  <div class="header">
+    <h1 id="title">The Planets</h1>
+  </div>
+
+  <div class="planets">
+    <div class="row">
+      <input type="image" img src="images/sun.png" name="Sun" height="180x" width="180px" data-toggle="modal" data-target="#sunModal">
+      <input type="image" img src="images/mercury.png" name="Mercury" height="180x" width="180px" data-toggle="modal" data-target="#mercuryModal">
+      <input type="image" img src="images/venus.png" name="Venus" height="180x" width="180px" data-toggle="modal" data-target="#venusModal">
+      <input type="image" img src="images/moon.png" name="Moon" height="180x" width="180px" data-toggle="modal" data-target="#moonModal">
+      <input type="image" img src="images/mars.png" name="Mars" height="180x" width="180px" data-toggle="modal" data-target="#marsModal">
+    </div>
+  </div>
+
+  <div class="modal fade" id="sunModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="sunTitle">The Sun</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This is the most common factor, often referred to in the newspapers and of all the magazines; however is the LEAST important when
+            considering a chart overall. Yes, it describes the most common theme in the native’s life but, cannot, I repeat, CANNOT be taken and
+            interpreted in isolation. PS. Native means the person whose chart is being interpreted.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <div class="modal fade" id="mercuryModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mercuryTitle">Mercury</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This planet represents connections; between parts of things, relationships with siblings, how to get from a to b (transport) and how
+            messages are passed from one place to another. Therefore, this describes communication, patterns of thinking and how one connects to the
+            world, either through learning, through peers or even through sales.</P>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="venusModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="venusTitle">Venus</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>The easiest planet to understand, represents love, pleasure, leisure and harmony; wherever this is travelling in the native’s chart
+            demonstrates how they express their love… perhaps they like to enjoy being with their friends whilst participating in outdoor events.
+            Perhaps they prefer to be with their loved ones at home and express their love by writing poetry or painting artwork.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="moonModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="moonTitle">The Moon</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This is a very important factor in the chart, which can describe the way someone feeds themselves both in the literal sense (eating) and the
+            figurative sense (emotionally). Interestingly, it can also describe how they feed or nurture others and, can therefore be representative of the
+            Mother and/or how one is brought up.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="marsModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="marsTitle">Mars</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p>This is the planet ruled by the God of War – and for good reason – wherever this planet is travelling in the native’s chart shows how
+            this person usually stands up for themselves and channels their energy. For example, one may choose to talk their way out of a sticky situation,
+            whereas others may choose to fight by playing the long game and strategizing. Alternatively, Mars can also represent sexuality and physicality,
+            so can describe how someone expresses themselves in the bedroom.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="signTitle">
+    <h1 id="subTitle">Your Sun Sign</h1>
+  </div>
+  <div class="signs">
+    <table id="tableSigns" class="table table-borderless">
+      <tbody>
+        <tr>
+          <th scope="row"></th>
+          <td>
+            <input type="image" img src="images/profile-aquarius.png" alt="Aquarius" height="180x" width="180px" data-toggle="modal" data-target="#aquariusModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-pisces.png" alt="Pisces" height="180x" width="180px" data-toggle="modal" data-target="#piscesModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-aries.png" alt="Aries" height="180x" width="180px" data-toggle="modal" data-target="#ariesModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-taurus.png" alt="Taurus" height="180x" width="180px" data-toggle="modal" data-target="#taurusModal">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>
+            <input type="image" img src="images/profile-gemini.png" alt="Gemini" height="180x" width="180px" data-toggle="modal" data-target="#geminiModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-cancer.png" alt="Cancer" height="180x" width="180px" data-toggle="modal" data-target="#cancerModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-leo.png" alt="Leo" height="180x" width="180px" data-toggle="modal" data-target="#leoModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-virgo.png" alt="Virgo" height="180x" width="180px" data-toggle="modal" data-target="#virgoModal">
+          </td>
+        </tr>
+        <tr>
+          <th scope="row"></th>
+          <td>
+            <input type="image" img src="images/profile-libra.png" alt="Libra" height="180x" width="180px" data-toggle="modal" data-target="#libraModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-scorpio.png" alt="Scorpio" height="180x" width="180px" data-toggle="modal" data-target="#scorpioModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-sagittarius.png" alt="Sagittarius" height="180x" width="180px" data-toggle="modal" data-target="#sagittariusModal">
+          </td>
+          <td>
+            <input type="image" img src="images/profile-capricorn.png" alt="Capricorn" height="180x" width="180px" data-toggle="modal" data-target="#capricornModal">
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="modal fade" id="aquariusModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="aquariusTitle">Aquarius</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><b>Date range:</b> January 20 - February 18</p>
+        <p><b>Element:</b> Air</p>
+        <p><b>Ruler:</b> Uranus, Saturn</p>
+        <div class="modal-body">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strengths
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Progressive</li>
+                <li>Original</li>
+                <li>Independent</li>
+                <li>Humanitarian</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weaknesses
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Runs from emotional expression  </li>
+                <li>Temperamental</li>
+                <li>Uncompromising</li>
+                <li>Aloof</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Likes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Fun with friends</li>
+                <li>Helping others</li>
+                <li>Fighting for causes</li>
+                <li>Intellectual conversations</li>
+                <li>A good listener</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dislikes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Limitations</li>
+                <li>Broken promises</li>
+                <li>Being lonely</li>
+                <li>Dull or boring situations</li>
+                <li>People who disagree with them</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>Aquarius-born are shy and quiet, but on the other hand they can be eccentric and energetic.
+            However, in both cases, they are deep thinkers and highly intellectual people who love helping others.
+            They are able to see without prejudice, on both sides, which makes them people who can easily solve problems.
+            Although they can easily adapt to the energy that surrounds them, Aquarius-born have a deep need to be some time
+            alone and away from everything, in order to restore power.</p>
+          <p>People born under the Aquarius sign, look at the world as a place full of possibilities.</p>
+          <p>Aquarius is an air sign, and as such, uses his mind at every opportunity. If there is no mental stimulation, they are bored
+            and lack a motivation to achieve the best result.
+            The ruling planet of Aquarius, Uranus has a timid, abrupt and sometimes aggressive nature, but it also gives Aquarius visionary
+            quality. They are capable of perceiving the future and they know exactly what they want to be doing five or ten years from now.
+            Uranus also gave them the power of quick and easy transformation, so they are known as thinkers, progressives and humanists.
+            They feel good in a group or a community, so they constantly strive to be surrounded by other people.
+            The biggest problem for Aquarius-born is the feeling that they are limited or constrained. Because of the desire for
+            freedom and equality for all, they will always strive to ensure freedom of speech and movement. Aquarius-born have a
+            reputation for being cold and insensitive persons, but this is just their defence mechanism against premature intimacy.
+            They need to learn to trust others and express their emotions in a healthy way.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="piscesModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="piscesTitle">Pisces</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><b>Date range:</b> February 19 - March 20</p>
+        <p><b>Element:</b> Water</p>
+        <p><b>Ruler:</b> Neptune, Jupiter</p>
+        <div class="modal-body">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strengths
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Compassionate</li>
+                <li>Artistic</li>
+                <li>Intuitive</li>
+                <li>Gentle</li>
+                <li>Wise</li>
+                <li>Musical</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weaknesses
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Fearful </li>
+                <li>Overly Trusting</li>
+                <li>Sad</li>
+                <li>Desire to escape reality</li>
+                <li>Can be a victim or a martyr</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Likes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Being alone</li>
+                <li>Sleeping</li>
+                <li>Music</li>
+                <li>Romance</li>
+                <li>Visual Media</li>
+                <li>Swimming</li>
+                <li>Spiritual themes</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dislikes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Know-it-all</li>
+                <li>Being criticized</li>
+                <li>The past coming back to haunt</li>
+                <li>Cruelty of any kind</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>Pisces are very friendly, so they often find themselves in a company of very different people. Pisces are selfless, they are always
+            willing to help others, without hoping to get anything back. Pisces is a Water sign and as such this zodiac sign is characterized by
+            empathy and expressed emotional capacity.</p>
+          <p>Their ruling planet is Neptune, so Pisces are more intuitive than others and have an artistic talent. Neptune is connected to music,
+            so Pisces reveal music preferences in the earliest stages of life. They are generous, compassionate and extremely faithful and caring.
+            People born under the Pisces sign have an intuitive understanding of the life cycle and thus achieve the best emotional relationship with other
+            beings. Pisces-born are known by their wisdom, but under the influence of Uranus, Pisces sometimes can take the role of a martyr, in order to
+            catch the attention. Pisces are never judgmental and always forgiving. They are also known to be most tolerant of all the zodiac signs</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ariesModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ariesTitle">Aries</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><b>Date range:</b> March 21 - April 19</p>
+        <p><b>Element:</b> Fire</p>
+        <p><b>Ruler:</b>Mars</p>
+        <div class="modal-body">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strengths
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Courageous</li>
+                <li>Determined</li>
+                <li>Confident</li>
+                <li>Enthusiastic</li>
+                <li>Optimistic</li>
+                <li>Honest</li>
+                <li>Passionate</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weaknesses
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Impatient </li>
+                <li>Moody</li>
+                <li>Short-tempered</li>
+                <li>Impulsive</li>
+                <li>Aggressive</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Likes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Comfortable clothes</li>
+                <li>Taking on leadership roles</li>
+                <li>Physical challenges</li>
+                <li>Individual Sports</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dislikes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Inactivity</li>
+                <li>Delays</li>
+                <li>Work that does not use one's talents</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>As the first sign in the zodiac, the presence of Aries always marks the beginning of something energetic and turbulent. They are continuously looking
+            for dynamic, speed and competition, always being the first in everything - from work to social gatherings. Thanks to its ruling planet Mars and the fact
+            it belongs to the element of Fire (just like Leo and Sagittarius), Aries is one of the most active zodiac signs. It is in their nature to take action, sometimes
+            before they think about it well. The Sun in such high dignity gives them excellent organizational skills, so you'll rarely meet an Aries who isn't capable of
+            finishing several things at once, often before lunch break! Their challenges show when they get impatient, aggressive and vent anger pointing it to other people.</p>
+          <p>Strong personalities born under this sign have a task to fight for their goals, embracing togetherness and teamwork through this incarnation.</p>
+          <p>Aries rules the head and leads with the head, often literally walking head first, leaning forwards for speed and focus. Its representatives are naturally brave
+            and rarely afraid of trial and risk. They possess youthful strength and energy, regardless of their age and quickly perform any given tasks.</p>
+          <p>The Flying Ram Guided by the story of the Golden Fleece, an Aries is ready to be the hero of the day, fly away and carry many endangered, powerless
+            people on their back. The power of the ram is carried on his back, for he is the gold itself, shiny and attractive to those ready for betrayal.
+            The story of glory that isn't easy to carry is in these two horns, and if this animal doesn't get shorn, allowing change and giving someone a
+            warm sweater, they won't have much to receive from the world. Each Aries has a task to share their position, power, gold, or physical strength with other people
+            willingly, or the energy will be stopped in its natural flow, fear will take over, and the process of giving and receiving will hold balance at zero.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="taurusModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="taurusTitle">Taurus</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <p><b>Date range:</b> April 20 - May 20</p>
+        <p><b>Element:</b> Earth</p>
+        <p><b>Ruler:</b>Venus</p>
+        <div class="modal-body">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Strengths
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Reliable</li>
+                <li>Patient</li>
+                <li>Practical</li>
+                <li>Devoted</li>
+                <li>Responsible</li>
+                <li>Stable</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Weaknesses
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Stubborn</li>
+                <li>Possessive</li>
+                <li>Uncompromising</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Likes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Gardening</li>
+                <li>Cooking</li>
+                <li>Music</li>
+                <li>Romance</li>
+                <li>High quality clothes</li>
+                <li>Working with hands</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dislikes
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li>Sudden changes</li>
+                <li>Complications</li>
+                <li>Insecurity of any kind</li>
+                <li>Synthetic fabrics</li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p>Practical and well-grounded, Taurus is the sign that harvests the fruits of labor. They feel the need to always be surrounded by love and beauty,
+            turned to the material world, hedonism, and physical pleasures. People born with their Sun in Taurus are sensual and tactile, considering touch and
+            taste the most important of all senses. Stable and conservative, this is one of the most reliable signs of the zodiac, ready to endure and stick to
+            their choices until they reach the point of personal satisfaction.</p>
+          <p>Taurus is an Earth sign, just like Virgo and Capricorn, and has the ability to see things from a grounded, practical and realistic perspective.
+            They find it easy to make money and stay on same projects for years, or until they are completed. What we often see as stubbornness can be interpreted as
+            commitment, and their ability to complete tasks whatever it takes is uncanny. This makes them excellent employees, great long-term friends and partners,
+            always being there for people they love. Earthly note makes them overprotective, conservative, or materialistic at times, with views of the world founded
+            on their love of money and wealth.</p>
+          <p>The ruler of Taurus is Venus, the planet of love, attraction, beauty, satisfaction, creativity and gratitude. This tender nature will make Taurus an
+            excellent cook, gardener, lover, and artist. They are loyal and don't like sudden changes, criticism or the chase of guilt people are often prone to,
+            being somewhat dependable on other people and emotions they seem to be unable to let go of. Still, no matter their potential emotional challenge, these
+            individuals have the ability to bring a practical voice of reason in any chaotic and unhealthy situation.</p>
+          <p>The Wandering Bull Being the one who betrayed their best friend, goddess Hera herself, this is an unfortunate being that has to wander the Earth in order
+            to find freedom. As if something was always poking them behind their back, reminding them of happiness that once was, stinging and pushing forwards, they
+            close up in their own worlds, lonely and separated from their core. To find love, a Taurus has to travel the world, change perspective or make a shift in
+            their entire belief system and their system of values.</p>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="geminiModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="geminiTitle">Gemini</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> May 21 - June 20</p>
+      <p><b>Element:</b> Air</p>
+      <p><b>Ruler:</b> Mercury</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Gentle</li>
+              <li>Affectionate</li>
+              <li>Curious</li>
+              <li>Adaptable</li>
+              <li>Ability to learn quickly and exchange ideas</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Nervous</li>
+              <li>Inconsistent</li>
+              <li>Indecisive</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Music</li>
+              <li>Books</li>
+              <li>Short trips around the town</li>
+              <li>Small talk with everyone</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Being alone</li>
+              <li>Being confined</li>
+              <li>Repitition</li>
+              <li>Routine</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p>Expressive and quick-witted, Gemini represents two different personalities in one and you will never be sure which one you will face.
+           They are sociable, communicative and ready for fun, with a tendency to suddenly get serious, thoughtful and restless.
+           They are fascinated with the world itself, extremely curious, with a constant feeling that there is not enough time to experience everything they want to see.</p>
+        <p>The sign of Gemini belongs to the element of Air, accompanying Libra and Aquarius, and this connects it to all aspects of the mind.
+           It is ruled by Mercury, the planet that represents communication, writing, and movement. People born under this Sun sign often have a feeling that their other half is missing,
+           so they are forever seeking new friends, mentors, colleagues and people to talk to.</p>
+        <p>Gemini's changeable and open mind makes them excellent artists, especially writers and journalists, and their skills and flexibility make them shine in trade, driving and team sports.
+           This is a versatile, inquisitive, fun loving sign, born with a wish to experience everything there is out there, in the world. This makes their character inspiring, and never boring.</p>
+        <p>There is so much childish innocence in the nature of Gemini, telling their tale of brotherhood, love between best friends and relatives who are entirely different by character,
+           circumstances, physical appearance or upbringing. They are in this world to mend differences and make them feel right, ready to give their life for a brother or a friend.
+           Gemini Love and Sex Fun and always ready for an intellectual challenge, Gemini sees love first through communication and verbal contact,
+           and find it as important as physical contact with their partner. When these two combine, obstacles all seem to fade.
+           Inquisitive and always ready to flirt, a Gemini could spend a lot of time with different lovers until they find the right one who is able to match their intellect and energy.
+           They need excitement, variety and passion, and when they find the right person, a lover, a friend and someone to talk to combined into one,
+           they will be faithful and determined to always treasure their heart.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="cancerModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="cancerTitle">Cancer</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> June 21 - July 22</p>
+      <p><b>Element:</b> Water</p>
+      <p><b>Ruler:</b> Moon</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Tenacious</li>
+              <li>Imaginitive</li>
+              <li>Loyal</li>
+              <li>Emotional</li>
+              <li>Sympathetic</li>
+              <li>Persuasive</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Moody</li>
+              <li>Pessimistic</li>
+              <li>Suspecious</li>
+              <li>Manipulative</li>
+              <li>Insecure</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Art</li>
+              <li>Home-based hobbies</li>
+              <li>Relaxing near or in water</li>
+              <li>Helping loved ones</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Strangers</li>
+              <li>Any criticism</li>
+              <li>Revealing of personal life</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p>Deeply intuitive and sentimental, Cancer can be one of the most challenging zodiac signs to get to know.
+           They are very emotional and sensitive, and care deeply about matters of the family and their home. Cancer is sympathetic and attached to people they keep close.
+           Those born with their Sun in Cancer are very loyal and able to empathize with other people's pain and suffering.</p>
+        <p>The sign of Cancer belongs to the element of Water, just like Scorpio and Pisces. Guided by emotion and their heart, they could have a hard time blending into the world around them.
+           Being ruled by the Moon, phases of the lunar cycle deepen their internal mysteries and create fleeting emotional patterns that are beyond their control.
+           As children, they don't have enough coping and defensive mechanisms for the outer world, and have to be approached with care and understanding, for that is what they give in return.</p>
+        <p>Lack of patience or even love will manifest through mood swings later in life, and even selfishness, self-pity or manipulation.
+           They are quick to help others, just as they are quick to avoid conflict, and rarely benefit from close combat of any kind,
+           always choosing to hit someone stronger, bigger, or more powerful than they imagined. When at peace with their life choices,
+           Cancer representatives will be happy and content to be surrounded by a loving family and harmony in their home.</p>
+        <p>Sent to this Earth by something they believe in, only to mess with someone bigger than they are, this isn't an animal aware of their strength.
+           Patriotism can make them endanger their own wellbeing, fighting for someone else's cause, as if others can become their higher power.
+           The Crab knows where they're going, but this is often in a wrong direction, at least until they learn their lessons and start relying solely on themselves.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="leoModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="leoTitle">Leo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> July 23 - August 22</p>
+      <p><b>Element:</b> Fire</p>
+      <p><b>Ruler:</b> Sun</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Creative</li>
+              <li>Passionate</li>
+              <li>Generous</li>
+              <li>Warm-hearted</li>
+              <li>Cheerful</li>
+              <li>Humorous</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Arrogant</li>
+              <li>Stubborn</li>
+              <li>Self-centered</li>
+              <li>Lazy</li>
+              <li>Inflexible</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Theatre</li>
+              <li>Holidays</li>
+              <li>Being admired</li>
+              <li>Expensive things</li>
+              <li>Bright colours</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Being ignored</li>
+              <li>Facing difficult reality</li>
+              <li>Not being treated like a kinf or queen</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> People born under the sign of Leo are natural born leaders. They are dramatic, creative, self-confident, dominant and extremely difficult to resist,
+            able to achieve anything they want to in any area of life they commit to. There is a specific strength to a Leo and their "king of the jungle" status.
+            Leo often has many friends for they are generous and loyal. Self-confident and attractive,
+            this is a Sun sign capable of uniting different groups of people and leading them as one towards a shared cause,
+            and their healthy sense of humour makes collaboration with other people even easier.</p>
+        <p> Leo belongs to the element of Fire, just like Aries and Sagittarius. This makes them warm hearted, in love with life, trying to laugh and have a good time.
+            Able to use their mind to solve even the most difficult problems, they will easily take initiative in resolving various complicated situations.
+            Ruled by the Sun, Leo worships this fiery entity in the sky, quite literally as well as metaphorically. They are in search for self-awareness and in constant growth of ego.
+            Aware of their desires and personality, they can easily ask for everything they need, but could just as easily unconsciously neglect the needs of other people in their chase for personal gain or status.
+            When a Leo representative becomes too fond and attached to their achievements and the way other people see them, they become an easy target, ready to be taken down.</p>
+        <p> The story of the Lion always speaks of bravery. This is an animal fearless and impossible to challenge, hurt or destroy, their only weaknesses being fear and aggression towards those they confront.
+            Living in a cave, a Lion always needs to have one, nesting and finding comfort in hard times. However, they should never stay there for long.
+            With their head high, they have to face others with dignity and respect, never raising a voice, a hand, or a weapon, bravely walking through the forest they rule.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="virgoModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="virgoTitle">Virgo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> August 23 - September 22</p>
+      <p><b>Element:</b> Earth</p>
+      <p><b>Ruler:</b> Mercury</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Loyal</li>
+              <li>Analytical</li>
+              <li>Kind</li>
+              <li>Hardworking</li>
+              <li>Practicle</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Shyness</li>
+              <li>Worry</li>
+              <li>Overly critical of self and others</li>
+              <li>All work and no play</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Animals</li>
+              <li>Healthy foods</li>
+              <li>Books</li>
+              <li>Nature</li>
+              <li>Cleanliness</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Rudeness</li>
+              <li>Asking for help</li>
+              <li>Taking centre stage</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> Virgos are always paying attention to the smallest details and their deep sense of humanity makes them one of the most careful signs of the zodiac.
+            Their methodical approach to life ensures that nothing is left to chance, and although they are often tender,
+            their heart might be closed for the outer world. This is a sign often misunderstood, not because they lack the ability to express,
+            but because they won’t accept their feelings as valid, true, or even relevant when opposed to reason.
+            The symbolism behind the name speaks well of their nature, born with a feeling they are experiencing everything for the first time.</p>
+        <p> Virgo is an Earth sign, fitting perfectly between Taurus and Capricorn. This will lead to a strong character, but one that prefers conservative,
+            well-organized things and a lot of practicality in their everyday life. These individuals have an organized life, and even when they let go to chaos,
+            their goals and dreams still have strictly defined borders in their mind. Constantly worried that they missed a detail that will be impossible to fix,
+            they can get stuck in details, becoming overly critical and concerned about matters that nobody else seems to care much about.</p>
+        <p> Since Mercury is the ruling planet of this sign, its representatives have a well-developed sense of speech and writing, as well as all other forms of communication.
+            Many Virgos may choose to pursue a career as writers, journalists, and typists, but their need to serve others makes them feel good as caregivers,
+            on a clear mission to help.</p>
+        <p> Seeking goodness in humankind is the story of Virgo, and disappointment seems to be inevitable from their point of view.
+            The first time they came from their cloud and jumped onto planet Earth, it felt like their mission is to use their existence for good,
+            discovering ways of justice and purity in other people. Once they fail to find it too many times, Virgos will pull away, get lost,
+            turn to substance abuse, or simply separate from other people to sit on the bench, criticize and judge.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="libraModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="libraTitle">Libra</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> September 23 - October 22</p>
+      <p><b>Element:</b> Air</p>
+      <p><b>Ruler:</b> Venus</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Cooperative</li>
+              <li>Diplomatic</li>
+              <li>Gracious</li>
+              <li>Fair-minded</li>
+              <li>Social</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Indecisive</li>
+              <li>Avoids confrontations</li>
+              <li>Carry a grudge</li>
+              <li>Self-pity</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Harmony</li>
+              <li>Gentleness</li>
+              <li>Sharing with others</li>
+              <li>The outdoors</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Violence</li>
+              <li>Injustice</li>
+              <li>Loudmouths</li>
+              <li>Conformity</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> People born under the sign of Libra are peaceful, fair, and they hate being alone. Partnership is very important for them, as their mirror and someone giving them the ability to be the mirror themselves.
+            These individuals are fascinated by balance and symmetry, they are in a constant chase for justice and equality, realizing through life that the only thing that should be truly important to themselves in their own inner core of personality.
+            This is someone ready to do nearly anything to avoid conflict, keeping the peace whenever possible</p>
+        <p> The sign of Libra is an Air sign, set between Gemini and Aquarius, giving these individuals constant mental stimuli, strong intellect and a keen mind.
+            They will be inspired by good books, insurmountable discussions and people who have a lot to say. Each Libra representative has to be careful when talking to other people,
+            for when they are forced to decide about something that is coming their way, or to choose sides, they suddenly realize that they might be in the wrong place and surrounded by wrong people.
+            No partner should make them forget that they have their own opinion.</p>
+        <p> Planet ruling the sign of Libra is Venus, making these people great lovers but also fond of expensive, material things.
+            Their lives need to be enriched by music, art, and beautiful places they get a chance to visit.</p>
+        <p> The shortest myth of them all seems to present a good analogy to the shortest constellation in the sky, you might even say that it is non-existent, presented by the pliers of Scorpio.
+            Libra is one dot of balance in the sea of different extremes, manifested only through the fifteenth degree of this magnificent sign, an object among animals and people.
+            There is something awfully insecure about Libra, as if they were unsure which plate to burden next, aware that things pass and teach us to be careful around other people.
+            Whatever we do in our lifetimes, only serves to point the way for our Souls towards that “higher power” to finally measure our existence.
+            Telling us where we went wrong or what we did right, Libras unconsciously teach us that true liberation hides in lightness.</p>
+        </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="modal fade" id="scorpioModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="scorpioTitle">Scorpio</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> October 23 - November 21</p>
+      <p><b>Element:</b> Water</p>
+      <p><b>Ruler:</b> Pluto, Mars</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Resourceful</li>
+              <li>Brave</li>
+              <li>Passionate</li>
+              <li>Stubborn</li>
+              <li>A true friend</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Distrusting</li>
+              <li>Jealous</li>
+              <li>Secretive</li>
+              <li>Violent</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Truth</li>
+              <li>Facts</li>
+              <li>Being right</li>
+              <li>Long-time friends</li>
+              <li>Teasing</li>
+              <li>A grand passion</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Dishonesty</li>
+              <li>Revealing secrets</li>
+              <li>Passive people</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> Scorpio-born are passionate and assertive people. They are determined and decisive, and will research until they find out the truth.
+            Scorpio is a great leader, always aware of the situation and also features prominently in resourcefulness.</p>
+        <p> Scorpio is a Water sign and lives to experience and express emotions. Although emotions are very important for Scorpio, they manifest them differently than other water signs.
+            In any case, you can be sure that the Scorpio will keep your secrets, whatever they may be.</p>
+        <p> Pluto is the planet of transformation and regeneration, and also the ruler of this zodiac sign. Scorpios are known by their calm and cool behaviour, and by their mysterious appearance.
+            People often say that Scorpio-born are fierce, probably because they understand very well the rules of the universe. Some Scorpio-born can look older than they actually are.
+            They are excellent leaders because they are very dedicated to what they do. Scorpios hate dishonesty and they can be very jealous and suspicious, so they need to learn how to adapt more easily to different human behaviours.
+            Scorpios are brave and therefore they have a lot of friends.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="sagittariusModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="sagittariusTitle">Sagittarius</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> November 22 - December 21</p>
+      <p><b>Element:</b> Fire</p>
+      <p><b>Ruler:</b> Jupiter</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Generous</li>
+              <li>Idealistic</li>
+              <li>Great sense of humour</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Promises more than can deliver</li>
+              <li>Very impatient</li>
+              <li>Will say anything no matter how undiplomatic</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Freedom</li>
+              <li>Travel</li>
+              <li>Philosophy</li>
+              <li>Being outdoors</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Clingy people</li>
+              <li>Being constrained</li>
+              <li>Off-the-wall theories</li>
+              <li>Details</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> Curious and energetic, Sagittarius is one of the biggest travelers among all zodiac signs. Their open mind and philosophical view motivates them to wander around the world in search of the meaning of life.
+            Sagittarius is extrovert, optimistic and enthusiastic, and likes changes. Sagittarius-born are able to transform their thoughts into concrete actions and they will do anything to achieve their goals.</p>
+        <p> Like the other fire signs, Sagittarius needs to be constantly in touch with the world to experience as much as possible. The ruling planet of Sagittarius is Jupiter, the largest planet of the zodiac.
+            Their enthusiasm has no bounds, and therefore people born under the Sagittarius sign possess a great sense of humour and an intense curiosity.</p>
+        <p> Freedom is their greatest treasure, because only then they can freely travel and explore different cultures and philosophies. Because of their honesty, Sagittarius-born are often impatient and tactless when they need to say or do something,
+            so it's important to learn to express themselves in a tolerant and socially acceptable way.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="capricornModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="capricornTitle">Capricorn</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <p><b>Date range:</b> December 22 - January 19</p>
+      <p><b>Element:</b> Earth</p>
+      <p><b>Ruler:</b> Saturn</p>
+      <div class="modal-body">
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Strengths
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Responsible</li>
+              <li>Disciplined</li>
+              <li>Self-control</li>
+              <li>Good managers</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Weaknesses
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Know-it-all</li>
+              <li>Unforgiving</li>
+              <li>Condescending</li>
+              <li>Expecting the worst</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Likes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Family</li>
+              <li>Tradition</li>
+              <li>Music</li>
+              <li>Understated status</li>
+              <li>Quality craftmanship</li>
+            </ul>
+          </div>
+        </div>
+        <div class="btn-group" role="group">
+          <button id="btnGroupDrop1" type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dislikes
+          </button>
+          <div class="dropdown-menu">
+            <ul>
+              <li>Almost everything at some point</li>
+            </ul>
+          </div>
+        </div>
+        <hr>
+        <p> Capricorn is a sign that represents time and responsibility, and its representatives are traditional and often very serious by nature.
+            These individuals possess an inner state of independence that enables significant progress both in their personal and professional lives.
+            They are masters of self-control and have the ability to lead the way, make solid and realistic plans, and manage many people who work for them at any time.
+            They will learn from their mistakes and get to the top based solely on their experience and expertise.</p>
+        <p> Belonging to the element of Earth , like Taurus and Virgo, this is the last sign in the trio of practicality and grounding.
+            Not only do they focus on the material world, but they have the ability to use the most out of it. Unfortunately, this element also makes them stiff and sometimes too stubborn to move from one perspective or point in a relationship.
+            They have a hard time accepting differences of other people that are too far from their character, and out of fear might try to impose their traditional values aggressively.</p>
+        <p> Saturn is the ruling planet of Capricorn, and this planet represents restrictions of all kinds. Its influence makes these people practical and responsible,
+            but also cold, distant and unforgiving, prone to the feeling of guilt and turned to the past. They need to learn to forgive in order to make their own life lighter and more positive.</p>
+        <p> A goat with the tail of a fish is created to face fear and create panic. It is the sign of decisions made to be protected from monsters in our minds, lives, and immediate physical surrounding.
+            Always ready to transform into something that scares those scary things off, Capricorn speaks of each natural chain reaction of fear, where one scary thing leads to many others,
+            rising up as defensive mechanisms that only make things worse. Immersed in their secrecy, they face the world just as they are – brave enough to never run away, but constantly afraid of their inner monsters.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-alert" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <footer>
+    <div class="bottom">
+      <a href="http://www.facebook.com" class="fa fa-facebook"></a>
+      <a href="http://www.twitter.com" class="fa fa-twitter"></a>
+      <a href="http://www.instagram.com" class="fa fa-instagram"></a>
+      <span class="badge badge-pill badge-secondary">By Star-Crossed</span>
+    </div>
+  </footer>
+
+<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/scripts.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
