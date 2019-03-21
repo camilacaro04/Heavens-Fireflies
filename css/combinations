@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(24,40,118);
+}
+
+h1#title {
+    text-align: center;
+    color: rgb(255,87,51);
+}
+
+div.header {
+    display:flex;
+    justify-content: center;
+    background-color:rgb(24,40,118);
+
+div.combinations {
+  background-color: black;
+  color: white;
+  margin: 20px;
+  padding: 20px;
+}
